@@ -1,0 +1,17 @@
+cloud:
+  aws:
+    region:
+      static: eu-west-2
+      auto: false
+    stack:
+      auto: false
+
+sns:
+  arn: arn:aws:sns:eu-west-2:985972127998:davidk-sns
+
+logging:
+  level:
+    com:
+      amazonaws:
+        util:
+          EC2MetadataUtils: error
